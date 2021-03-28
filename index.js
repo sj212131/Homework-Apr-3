@@ -28,12 +28,12 @@ const questions = [
         {
         type: 'input',
         message: 'What necessary Installation for this app',
-        name: 'Installation',
+        name: 'installation',
         },
         {
         type: 'input',
         message: 'What is this app used for?',
-        name: 'Usage',
+        name: 'usage',
         },
         {
         type: 'list',
@@ -49,12 +49,12 @@ const questions = [
         {
         type: 'input',
         message: 'Please enter command for test this app',
-        name: 'Test',
+        name: 'test',
         },
         {
         type: 'input',
         message: 'Any quesiton for this app',
-        name: 'Question',
+        name: 'question',
         },
 ];
 

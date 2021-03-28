@@ -54,7 +54,7 @@ function generateMarkdown(data) {
   This project is license under the ${data.license} license.
 
   # Contributing
-  ​Contributors: ${data.contributor}
+  ​Contributors: ${data.contribution}
 
   # Tests
   To run tests, you need to run the following command: ${data.test}.
