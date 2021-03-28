@@ -8,7 +8,7 @@ const questions = [
         {
         type: 'input',
         message: 'What is your Github username?',
-        name: 'github',
+        name: 'username',
         },
         {
         type: 'input',
@@ -22,15 +22,9 @@ const questions = [
         },
         {
         type: 'input',
-        message: 'Please five description of your project.',
+        message: 'Please give description of your project.',
         name: 'description',
         },
-        // {
-        // type: 'checkbox',
-        // message: 'Please check your Table of Contents.',
-        // choices: ["Description", "Installation", "Usage", "Test", "License", "Contributions"],
-        // name: 'contents',
-        // },
         {
         type: 'input',
         message: 'What necessary Installation for this app',
@@ -66,7 +60,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, function(err){
+    fs.writeFile("./generated_files" + fileName, data, function(err){
         if (err){
             return console.log(err);
         } else {

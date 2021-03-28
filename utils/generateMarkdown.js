@@ -26,7 +26,7 @@ function renderLicenseLink(license, licenseBadge) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  
+
 }
 
 // TODO: Create a function to generate markdown for README
@@ -34,7 +34,7 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
   # Description
-  ${data.Description}
+  ${data.description}
 
   # Table of Contents 
   * [Installation](#installation)
@@ -45,22 +45,22 @@ function generateMarkdown(data) {
   * [Questions](#questions)
    
   # Installation
-  The following necessary dependencies must be installed to run the application properly: ${data.Installation}
+  The following necessary dependencies must be installed to run the application properly: ${data.installation}
 
   # Usage
-  ​This application is used for ${data.Usage}.
+  ​This application is used for ${data.usage}.
 
   # License
-  This project is license under the ${data.License} license.
+  This project is license under the ${data.license} license.
 
   # Contributing
-  ​Contributors: ${data.Contributor}
+  ​Contributors: ${data.contributor}
 
   # Tests
-  To run tests, you need to run the following command: ${data.Test}.
+  To run tests, you need to run the following command: ${data.test}.
 
   # Questions
-  If you have any questions about the repo, open an issue or contact ${data.UserName} directly ${data.Email}.
+  If you have any questions about the repo https://github.com/${data.userName} , open an issue or contact directly ${data.email}.
   `
   }
 
