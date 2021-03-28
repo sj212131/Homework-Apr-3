@@ -7,6 +7,16 @@ const generatorMarkdown =  require("./utils/generateMarkdown");
 const questions = [
         {
         type: 'input',
+        message: 'What is your Github username?',
+        name: 'github',
+        },
+        {
+        type: 'input',
+        message: 'What is your Email address?',
+        name: 'email',
+        },
+        {
+        type: 'input',
         message: 'What is the title of your project?',
         name: 'title',
         },
@@ -15,16 +25,15 @@ const questions = [
         message: 'Please five description of your project.',
         name: 'description',
         },
+        // {
+        // type: 'checkbox',
+        // message: 'Please check your Table of Contents.',
+        // choices: ["Description", "Installation", "Usage", "Test", "License", "Contributions"],
+        // name: 'contents',
+        // },
         {
-        type: 'checkbox',
-        message: 'Please check your Table of Contents.',
-        choices: ["Description", "Installation", "Usage", "Test", "License", "Contributions"],
-        name: 'Contents',
-        },
-        {
-        type: 'checkbox',
+        type: 'input',
         message: 'What necessary Installation for this app',
-        choices: ["inquirer", "fs", "JavaScript", "VScode", "HTML", "CSS"],
         name: 'Installation',
         },
         {
@@ -33,19 +42,10 @@ const questions = [
         name: 'Usage',
         },
         {
-        type: 'input',
-        message: 'What license is your license badge name? enter for skip.',
-        name: 'licenseBadge',
-        },
-        {
-        type: 'input',
-        message: 'What license is your license Link? enter for skip.',
-        name: 'licenseLink',
-        },
-        {
-        type: 'input',
-        message: 'What license is your license section? enter for skip.',
-        name: 'licenseSection',
+        type: 'list',
+        message: 'what license used for this app? enter for skip.',
+        choices: ["Apache", "MIT", "GPL"],
+        name: 'license',
         },
         {
         type: 'input',
