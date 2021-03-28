@@ -4,9 +4,9 @@
 
 Home assignment 
 --------------------------------------------------------------------------------------------------
-Background:
+Description:
 
-This is Homework due on April 3. Practice of JavaScript, HTML, CSS, 3rd API (Inquirer; fs)
+This is a README.md file generator which creates a README.md file by taking users inputs on each question answers. This app uses a template so that a user can use this README generator app to create a README.md file for any project users are working on.
 
 --------------------------------------------------------------------------------------------------
 Install
