@@ -59,7 +59,7 @@ function generateMarkdown(data) {
   ​Contributors: ${data.contribution}
 
   # Tests
-  To run tests, you need to run the following command: ${data.test}.
+  Entered command for test this app: ${data.test}.
 
   # Questions
   If you have any questions about the repo https://github.com/${data.username} , open an issue or contact directly ${data.email}.
