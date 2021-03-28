@@ -1,7 +1,7 @@
-# Random project
+# Random Project
   [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
   # Description
-  Random project description
+  Random decription
 
   # Table of Contents 
   * [Installation](#installation)
@@ -12,10 +12,10 @@
   * [Questions](#questions)
    
   # Installation
-  The following necessary dependencies must be installed to run the application properly: inquirer
+  The following necessary dependencies must be installed to run the application properly: Inquirer
 
   # Usage
-  ​This application is used for Random project.
+  ​This application is used for Random app.
 
   # License
   This project is license under the MIT license.
@@ -24,7 +24,7 @@
   ​Contributors: none
 
   # Tests
-  To run tests, you need to run the following command: none.
+  Entered command for test this app: none.
 
   # Questions
   If you have any questions about the repo https://github.com/sj212131 , open an issue or contact directly sj212131@hotmail.com.
