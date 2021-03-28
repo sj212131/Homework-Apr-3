@@ -17,9 +17,9 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license, licenseBadge) {
     if (license === ''){
-      return  ; 
+      return licenseLink = "" ; 
   } else {
-    licenseLink = `\r[![License: MIT](https://img.shields.io/badge/License-${licenseBadge}.svg)](https://opensource.org/licenses/${license})`;
+    licenseLink = `\r(https://img.shields.io/badge/License-${licenseBadge}.svg)](https://opensource.org/licenses/${license})`;
   }
 }
 
