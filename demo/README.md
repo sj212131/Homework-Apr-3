@@ -1,7 +1,7 @@
-# 333333333333333333
-  [(https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# 333333333333333
+  [(https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache)
   # Description
-  444444444444444
+  44444444444444
 
   # Table of Contents 
   * [Installation](#installation)
@@ -12,13 +12,13 @@
   * [Questions](#questions)
    
   # Installation
-  The following necessary dependencies must be installed to run the application properly: 55555555555555555
+  The following necessary dependencies must be installed to run the application properly: 55555555555555
 
   # Usage
-  ​This application is used for 666666666666666.
+  ​This application is used for 6666666666666666.
 
   # License
-  This project is license under the MIT license.
+  This project is license under the Apache license.
 
   # Contributing
   ​Contributors: 7777777777777777
@@ -27,5 +27,5 @@
   To run tests, you need to run the following command: 888888888888888.
 
   # Questions
-  If you have any questions about the repo https://github.com/1111111111111 , open an issue or contact directly 22222222222222222.
+  If you have any questions about the repo https://github.com/1111111111111 , open an issue or contact directly 2222222222222.
   
