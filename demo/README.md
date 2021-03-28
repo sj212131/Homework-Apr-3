@@ -1,8 +1,7 @@
-# 333333333333333
-  
-[(https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache)
+# Readme generator
+  [(https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   # Description
-  44444444444444
+  generate readme file
 
   # Table of Contents 
   * [Installation](#installation)
@@ -13,20 +12,20 @@
   * [Questions](#questions)
    
   # Installation
-  The following necessary dependencies must be installed to run the application properly: 55555555555555
+  The following necessary dependencies must be installed to run the application properly: inquirer
 
   # Usage
-  ​This application is used for 6666666666666666.
+  ​This application is used for generate readme file.
 
   # License
-  This project is license under the Apache license.
+  This project is license under the MIT license.
 
   # Contributing
-  ​Contributors: 7777777777777777
+  ​Contributors: none
 
   # Tests
-  To run tests, you need to run the following command: 888888888888888.
+  To run tests, you need to run the following command: none.
 
   # Questions
-  If you have any questions about the repo https://github.com/1111111111111 , open an issue or contact directly 2222222222222.
+  If you have any questions about the repo https://github.com/sj212131 , open an issue or contact directly sj212131@hotmail.com.
   
