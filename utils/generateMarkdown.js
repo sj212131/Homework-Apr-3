@@ -19,7 +19,7 @@ function renderLicenseLink(license, licenseBadge) {
     if (license === ''){
       var licenseLink = "" ; 
   } else {
-      var licenseLink = `[\r(https://img.shields.io/badge/License-${licenseBadge}.svg)](https://opensource.org/licenses/${license})`;
+      var licenseLink = `\r[(https://img.shields.io/badge/License-${licenseBadge}.svg)](https://opensource.org/licenses/${license})`;
   }
   return licenseLink
 }
