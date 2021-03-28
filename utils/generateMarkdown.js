@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
     if (license === 'MIT'){
-      var licenseBadge = 'MIT-yellow';
+      var licenseBadge = 'MIT-blue';
     } else if (license === 'GPL') {
       var licenseBadge = 'GPLv3-blue';
     } else if (license === 'Apache') {
@@ -19,7 +19,7 @@ function renderLicenseLink(license, licenseBadge) {
     if (license === ''){
       var licenseLink = "" ; 
   } else {
-      var licenseLink = `\r[(https://img.shields.io/badge/License-${licenseBadge}.svg)](https://opensource.org/licenses/${license})`;
+      var licenseLink = `\r[![License](https://img.shields.io/badge/License-${licenseBadge}.svg)](https://opensource.org/licenses/${license})`;
   }
   return licenseLink
 }

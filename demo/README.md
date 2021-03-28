@@ -1,7 +1,7 @@
-# Readme generator
-  [(https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Random project
+  [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
   # Description
-  generate readme file
+  Random project description
 
   # Table of Contents 
   * [Installation](#installation)
@@ -15,7 +15,7 @@
   The following necessary dependencies must be installed to run the application properly: inquirer
 
   # Usage
-  ​This application is used for generate readme file.
+  ​This application is used for Random project.
 
   # License
   This project is license under the MIT license.
